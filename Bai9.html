@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bai 9</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script type="text/javascript">
+		let a = ["Chung", "to", "chup", "anh", "film", "to", "to"];
+		let b = "to";
+
+		function check(mang, str) {
+			let count = 0;
+			for (let i = 0; i < mang.length; i++) {
+				if (str == mang[i]) {
+					count++;
+				}
+			}
+			return count;
+		}
+
+		alert(check(a, b));
+	</script>
+</body>
+</html>
